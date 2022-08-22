@@ -21,6 +21,6 @@ jobs:
         uses: addnab/docker-run-action@v3
         with:
           image: ghcr.io/contrast-security-oss/assess-policy-as-code:main
-          options: -v ${{ github.workspace }}:/usr/src/app/output -e CONTRAST__API__URL=https://apptwo.contrastsecurity.com
+          options: -v ${{ github.workspace }}:/usr/src/app/output -e CONTRAST__API__URL=https://apptwo.contrastsecurity.com -e CONTRAST__API__API_KEY=${{ secrets.CONTRAST_API_KEY }} -e CONTRAST__API__AUTH_HEADER=${{ secrets.CONTRAST_AUTH_HEADER }}
           run: |
-                python /usr/src/app/contrast_policy_as_code.py
+                python /usr/src/app/contrast_policy_as_code.py -o ${{ secrets.CONTRAST_ORG_ID }}
