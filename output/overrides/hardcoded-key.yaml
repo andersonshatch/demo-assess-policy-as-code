@@ -1,0 +1,65 @@
+apps:
+  0ca50f74-0012-459a-9945-7c63afde0fef/JAXWebGoat:
+    dev: true
+    prod: true
+    qa: true
+  14eeeef1-f74e-4a90-bf9b-fa1953844e29/juice-shop:
+    dev: true
+    prod: true
+    qa: true
+  1607ddb2-8d82-4724-ac8c-317f83620a7b/joshwebgoat16:
+    dev: true
+    prod: true
+    qa: true
+  19c2d642-99e9-4ef2-840e-29823dcfd23c/Thurs1103WebGoat:
+    dev: true
+    prod: true
+    qa: true
+  376cb59a-d2ed-4c46-83f1-b913a9564cf4/FridayWebgoat:
+    dev: true
+    prod: true
+    qa: true
+  39a4ebc3-fe74-4272-9098-72b05ef7db76/test1234:
+    dev: true
+    prod: true
+    qa: true
+  44c873eb-803c-4d6e-b7e4-504533b71ca5/soma-ctrl:
+    dev: true
+    prod: true
+    qa: true
+  47de94f5-e954-42b7-9ea5-e6e92ad7cb69/owasp-nodejs-goat:
+    dev: true
+    prod: true
+    qa: true
+  8ebf1572-b203-499f-81a4-2ff91b0c58f9/frontend-1:
+    dev: true
+    prod: true
+    qa: true
+  9e18d69c-d994-48e1-8e51-73ab4864bf2d/tomcat.deferredresult.fp:
+    dev: true
+    prod: true
+    qa: true
+  b2172a56-af01-444a-9005-138a8213ef7d/WebGoat:
+    dev: true
+    prod: true
+    qa: true
+  b7174b89-7b72-4cc4-9176-f7399b3af20b/WednesdayWebgoat:
+    dev: true
+    prod: true
+    qa: true
+  df0fbe1a-0d4b-41f3-8f03-a8f16d343303/express-test:
+    dev: true
+    prod: true
+    qa: true
+  dfebcaa2-d148-4645-ad19-0c0978a14d16/webgoat-server-bf:
+    dev: true
+    prod: true
+    qa: true
+  dffc0e4d-5795-42eb-a044-ab49ed48dc8b/webgoat-server:
+    dev: true
+    prod: true
+    qa: true
+  e48444ea-e5ef-4f71-a522-23538789d8b6/WebGoatThurs:
+    dev: true
+    prod: true
+    qa: true

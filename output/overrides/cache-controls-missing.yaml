@@ -1,0 +1,201 @@
+apps:
+  04d1851e-7062-4781-b7ea-5a28d0d8d837/Kotlin-http4k:
+    dev: true
+    qa: true
+  0b5ce477-0a0e-4af0-8845-7136ff470a81/Jenkins v2.286:
+    dev: true
+    qa: true
+  0c6c65f0-014c-40bb-957b-e80655026845/webSite2vnoaghubqswyg-3:
+    dev: true
+    qa: true
+  0ca50f74-0012-459a-9945-7c63afde0fef/JAXWebGoat:
+    dev: true
+    qa: true
+  0d49c5dc-a3e7-4650-ab2a-52e085e6fc7d/python-screener-flask-manually-named-in-yaml:
+    dev: true
+    qa: true
+  1183bad2-70b7-47e4-8e94-6da3614eda70/sample-log4j-app:
+    dev: true
+    qa: true
+  12049e45-0bbe-4c52-81db-69940e65bcfe/HelloWorldFirst:
+    dev: true
+    qa: true
+  14eeeef1-f74e-4a90-bf9b-fa1953844e29/juice-shop:
+    dev: true
+    qa: true
+  1607ddb2-8d82-4724-ac8c-317f83620a7b/joshwebgoat16:
+    dev: true
+    qa: true
+  171b88af-0315-43e0-8298-f28f64d11559/WebLogic Console:
+    dev: true
+    qa: true
+  178c244c-4e4b-47bc-b2f1-b420c2a1c78c/soma-btle-blind-controller:
+    dev: true
+    qa: true
+  190afa0a-02b2-497d-ad74-2db2cb760461/local-tomcat:
+    dev: true
+    qa: true
+  195308ae-93c9-43cd-a2bc-151c7a3f353f/webSite2vnoaghubqswyg-4:
+    dev: true
+    qa: true
+  19c2d642-99e9-4ef2-840e-29823dcfd23c/Thurs1103WebGoat:
+    dev: true
+    qa: true
+  1a68be3d-1829-4d55-a7b3-2d9bea145df7/CoreWebApplication4:
+    dev: true
+    qa: true
+  1c2f0460-5533-4808-9ac6-a6db6e643bf7/github.com/anthonynsimon/bild:
+    dev: true
+    qa: true
+  1dd49478-a3a4-4427-a757-f4afae3e8572/Test:
+    dev: true
+    qa: true
+  28bc7166-825c-432a-8aa6-a22c06cb4f87/ReproXSSFromAnotherService:
+    dev: true
+    qa: true
+  2c075d0a-2416-4834-af32-3659da844524/icto-test:
+    dev: true
+    qa: true
+  376cb59a-d2ed-4c46-83f1-b913a9564cf4/FridayWebgoat:
+    dev: true
+    qa: true
+  39a4ebc3-fe74-4272-9098-72b05ef7db76/test1234:
+    dev: true
+    qa: true
+  3dc70cb5-af2e-4dc1-97fa-f83591ec0add/github.com/freshman-tech/news-demo:
+    dev: true
+    qa: true
+  44c873eb-803c-4d6e-b7e4-504533b71ca5/soma-ctrl:
+    dev: true
+    qa: true
+  46ffb7ed-0b1d-42c7-8bf2-afa0d6150e68/webapplication2:
+    dev: true
+    qa: true
+  47de94f5-e954-42b7-9ea5-e6e92ad7cb69/owasp-nodejs-goat:
+    dev: true
+    qa: true
+  4bce99de-a2d8-4c71-92f3-ecfcbb8bfbf3/webSitelzh3pxswtiy3y-1:
+    dev: true
+    qa: true
+  5285759e-02cd-480f-a22f-38f18a5e1aa2/vulnpy:
+    dev: true
+    qa: true
+  5f65607e-d2fe-4b72-a8aa-4e1c5396a6c8/express-vuln:
+    dev: true
+    qa: true
+  603ea69e-2c8d-4af2-816e-07497504750f/webSite2vnoaghubqswyg-1:
+    dev: true
+    qa: true
+  62e20dd1-09ac-4ddc-a8dc-dca3aa187190/webapplication1:
+    dev: true
+    qa: true
+  6f003d89-7e58-4110-be2f-cf04cb9d3121/dwebSitelzh3pxswtiy3y:
+    dev: true
+    qa: true
+  71ea23d5-a30d-4772-bd77-a82b50874b7a/Contrast:
+    dev: true
+    qa: true
+  7c410a85-0975-47d8-b224-9a8720a064dc/webSite2vnoaghubqswyg-0:
+    dev: true
+    qa: true
+  832f424e-a1e3-4686-82b4-0528225ebbf7/WebGoat-BuildNumber:
+    dev: true
+    qa: true
+  84814949-7e7c-4948-8d71-40a6911d89af/sample-spring-log4j-app:
+    dev: true
+    qa: true
+  8ebf1572-b203-499f-81a4-2ff91b0c58f9/frontend-1:
+    dev: true
+    qa: true
+  91b2071d-239a-4949-9954-d76879d8846c/ROOT:
+    dev: true
+    qa: true
+  950f9786-5677-4f51-b51a-70a1b528fc0c/webSitevnoaghubqswyg:
+    dev: true
+    qa: true
+  9acafb29-8389-489b-8394-6819bfb1719d/test-cli-creation:
+    dev: true
+    qa: true
+  9e18d69c-d994-48e1-8e51-73ab4864bf2d/tomcat.deferredresult.fp:
+    dev: true
+    qa: true
+  9e51c3b6-e858-48a5-8831-63c40fbf0be3/webSite2vnoaghubqswyg-2:
+    dev: true
+    qa: true
+  a71c75c8-8776-4123-b068-5c62f2d3f850/MyTestDotNetFrameworkApp:
+    dev: true
+    qa: true
+  a843d804-1fda-442d-b844-982b1ccbc616/HiCLI:
+    dev: true
+    qa: true
+  b18b2d67-acf1-4ef8-8c79-3436a4f01977/webSitelzh3pxswtiy3y-0:
+    dev: true
+    qa: true
+  b2172a56-af01-444a-9005-138a8213ef7d/WebGoat:
+    dev: true
+    qa: true
+  b4bcf2f9-c635-474d-bf04-ef50c47a8d41/HelloFromApplicationSettings:
+    dev: true
+    qa: true
+  b64779e7-fb6c-49c2-97e7-5345a167f179/github.com/mpolden/echoip:
+    dev: true
+    qa: true
+  b7174b89-7b72-4cc4-9176-f7399b3af20b/WednesdayWebgoat:
+    dev: true
+    qa: true
+  b744d313-2f3d-4d0a-9218-cd904862663d/2sample-spring-log4j-app:
+    prod: false
+  b822baa7-282a-46e4-bf85-ea5bb1369db1/HelloWorldSecond:
+    dev: true
+    qa: true
+  b966bf90-b0db-4943-9f76-31f7e34794da/mvn-log4j-vuln:
+    dev: true
+    qa: true
+  c068c964-0bfe-4362-a3a7-f78a823a323f/webSitelzh3pxswtiy3y-2:
+    dev: true
+    qa: true
+  ca6f4e4a-fc38-41a5-b7e7-66524f180ce0/webSitelzh3pxswtiy3y-8:
+    dev: true
+    qa: true
+  cfbfcc01-1c97-4b77-8aa6-bdbf9905c8b1/mas-j:
+    dev: true
+    qa: true
+  d8c0dc2a-57f8-474b-8f3e-5f6b59d4678d/netflicks:
+    dev: true
+    qa: true
+  dc8bb0bd-6019-4b34-bfa1-3df83dfcc3c5/webSitelzh3pxswtiy3y-3:
+    dev: true
+    qa: true
+  df0fbe1a-0d4b-41f3-8f03-a8f16d343303/express-test:
+    dev: true
+    qa: true
+  dfebcaa2-d148-4645-ad19-0c0978a14d16/webgoat-server-bf:
+    dev: true
+    qa: true
+  dffc0e4d-5795-42eb-a044-ab49ed48dc8b/webgoat-server:
+    dev: true
+    qa: true
+  e147cd06-5f2d-46ae-b2bd-9862aa526a4c/WebGoat-Inventory:
+    dev: true
+    qa: true
+  e48444ea-e5ef-4f71-a522-23538789d8b6/WebGoatThurs:
+    dev: true
+    qa: true
+  e6ff787d-289b-41cd-a720-aa174a0b28fa/@contrast/express-test-bench:
+    dev: true
+    qa: true
+  efcea666-65b1-48ef-8bd0-ea8a1359173f/application:
+    dev: true
+    qa: true
+  f90ff85d-20f1-436c-8260-45e9bf034e1e/github.com/jharper-sec/evil-app:
+    dev: true
+    qa: true
+  fbc4b8cd-651d-4d8a-9a71-6a9dff932ced/Default Web Site:
+    dev: true
+    qa: true
+  fe0bc8e2-a7b9-4b3f-8305-647053df2c2e/WebGoat.NET(1):
+    dev: true
+    qa: true
+  fe822d8a-ae5e-40d2-9013-1f5592798c5d/webSitelzh3pxswtiy3y-4:
+    dev: true
+    qa: true

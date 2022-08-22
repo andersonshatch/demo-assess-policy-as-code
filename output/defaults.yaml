@@ -1,0 +1,416 @@
+rules:
+  authorization-missing-deny:
+    dev: true
+    prod: true
+    qa: true
+    title: Authorization Rules Missing Deny Rule
+  authorization-rules-misordered:
+    dev: true
+    prod: true
+    qa: true
+    title: Authorization Rules Misordered
+  autocomplete-missing:
+    dev: true
+    prod: true
+    qa: true
+    title: Forms Without Autocomplete Prevention
+  cache-control-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Cache Control Header Disabled
+  cache-controls-missing:
+    dev: false
+    prod: true
+    qa: false
+    title: Anti-Caching Controls Missing
+  clickjacking-control-missing:
+    dev: true
+    prod: true
+    qa: true
+    title: Pages Without Anti-Clickjacking Controls
+  cmd-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: OS Command Injection
+  compilation-debug:
+    dev: true
+    prod: true
+    qa: true
+    title: Web Application Deployed in Debug Mode
+  cookie-flags-missing:
+    dev: true
+    prod: true
+    qa: true
+    title: Application Disables ''secure'' Flag on Cookies
+  cookie-header-missing-flags:
+    dev: true
+    prod: true
+    qa: true
+    title: Cookie Has No 'secure' Flag
+  crypto-bad-ciphers:
+    dev: true
+    prod: true
+    qa: true
+    title: Insecure Encryption Algorithms
+  crypto-bad-mac:
+    dev: true
+    prod: true
+    qa: true
+    title: Insecure Hash Algorithms
+  crypto-weak-randomness:
+    dev: false
+    prod: false
+    qa: false
+    title: Weak Random Number Generation
+  csp-header-insecure:
+    dev: false
+    prod: false
+    qa: false
+    title: Response With Insecurely Configured Content-Security-Policy Header
+  csp-header-missing:
+    dev: false
+    prod: false
+    qa: false
+    title: Response Without Content-Security-Policy Header
+  csrf:
+    dev: true
+    prod: true
+    qa: true
+    title: Cross-Site Request Forgery
+  custom-errors-off:
+    dev: true
+    prod: true
+    qa: true
+    title: Detailed Error Messages Displayed
+  escape-templates-off:
+    dev: false
+    prod: false
+    qa: false
+    title: Automatic Escaping Disabled
+  event-validation-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Event Validation Disabled
+  expression-language-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: Expression Language Injection
+  forms-auth-protection:
+    dev: true
+    prod: true
+    qa: true
+    title: Forms Auth Protection Mode
+  forms-auth-redirect:
+    dev: true
+    prod: true
+    qa: true
+    title: Forms Authentication Cross-App Redirect
+  forms-auth-ssl:
+    dev: true
+    prod: true
+    qa: true
+    title: Forms Authentication SSL
+  hardcoded-key:
+    dev: false
+    prod: false
+    qa: false
+    title: Hardcoded Cryptographic Key
+  hardcoded-password:
+    dev: false
+    prod: false
+    qa: false
+    title: Hardcoded Password
+  header-checking-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Header Checking Disabled
+  header-injection:
+    dev: false
+    prod: false
+    qa: false
+    title: Header Injection
+  hql-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: Hibernate Injection
+  hsts-header-missing:
+    dev: false
+    prod: false
+    qa: false
+    title: Response With Insecurely Configured Strict-Transport-Security Header
+  http-only-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: HttpOnly Cookie Flag Disabled
+  httponly:
+    dev: true
+    prod: true
+    qa: true
+    title: Session Cookie Has No 'HttpOnly' Flag
+  insecure-auth-protocol:
+    dev: true
+    prod: true
+    qa: true
+    title: Insecure Authentication Protocol
+  insecure-jsp-access:
+    dev: true
+    prod: true
+    qa: true
+    title: Insecure JSP Placement
+  insecure-socket-factory:
+    dev: true
+    prod: true
+    qa: true
+    title: Insecure SSL Socket Creation
+  jndi-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: JNDI Injection
+  ldap-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: LDAP Injection
+  log-injection:
+    dev: false
+    prod: false
+    qa: false
+    title: Log Injection
+  max-request-length:
+    dev: true
+    prod: true
+    qa: true
+    title: Large Max Request Length
+  nosql-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: NoSQL Injection
+  nosql-injection-dynamodb:
+    dev: true
+    prod: true
+    qa: true
+    title: NoSQL Injection DynamoDB
+  overly-permissive-cross-domain-policy:
+    dev: true
+    prod: true
+    qa: true
+    title: Overly Permissive Cross Domain Policy
+  parameter-pollution:
+    dev: true
+    prod: true
+    qa: true
+    title: Parameter Pollution
+  path-traversal:
+    dev: true
+    prod: true
+    qa: true
+    title: Path Traversal
+  plaintext-conn-strings:
+    dev: true
+    prod: true
+    qa: true
+    title: Unprotected Connection Strings
+  rails-http-only-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Rails HttpOnly Cookie Flag Disabled
+  redos:
+    dev: false
+    prod: false
+    qa: false
+    title: Regular Expression DoS
+  reflected-xss:
+    dev: true
+    prod: true
+    qa: true
+    title: Cross-Site Scripting
+  reflection-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: Reflection Injection
+  request-validation-control-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Request Validation Mode Disabled
+  request-validation-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Request Validation Disabled
+  role-manager-protection:
+    dev: true
+    prod: true
+    qa: true
+    title: Role Manager Protection Mode
+  role-manager-ssl:
+    dev: true
+    prod: true
+    qa: true
+    title: Role Manager SSL
+  secure-flag-missing:
+    dev: true
+    prod: true
+    qa: true
+    title: Session Cookie Has No 'secure' Flag
+  session-regenerate:
+    dev: true
+    prod: true
+    qa: true
+    title: Expired Session IDs Not Regenerated
+  session-rewriting:
+    dev: true
+    prod: true
+    qa: true
+    title: Session Rewriting
+  session-timeout:
+    dev: true
+    prod: true
+    qa: true
+    title: Overly Long Session Timeout
+  smtp-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: SMTP Injection
+  spring-unchecked-autobinding:
+    dev: true
+    prod: true
+    qa: true
+    title: Unchecked Spring Autobinding
+  sql-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: SQL Injection
+  ssrf:
+    dev: true
+    prod: true
+    qa: true
+    title: Server-Side Request Forgery (SSRF)
+  stored-xss:
+    dev: true
+    prod: true
+    qa: true
+    title: Stored Cross-Site Scripting
+  trace-enabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Tracing Enabled
+  trace-enabled-aspx:
+    dev: true
+    prod: true
+    qa: true
+    title: Tracing Enabled for ASPX
+  trust-boundary-violation:
+    dev: true
+    prod: true
+    qa: true
+    title: Trust Boundary Violation
+  unsafe-code-execution:
+    dev: true
+    prod: true
+    qa: true
+    title: Unsafe Code Execution
+  unsafe-readline:
+    dev: true
+    prod: true
+    qa: true
+    title: Use of readLine on Untrusted Streams
+  unsafe-xml-decode:
+    dev: true
+    prod: true
+    qa: true
+    title: Unsafe XML Decoding
+  untrusted-deserialization:
+    dev: true
+    prod: true
+    qa: true
+    title: Untrusted Deserialization
+  unvalidated-forward:
+    dev: false
+    prod: false
+    qa: false
+    title: Arbitrary Server Side Forwards
+  unvalidated-redirect:
+    dev: true
+    prod: true
+    qa: true
+    title: Unvalidated Redirect
+  verb-tampering:
+    dev: true
+    prod: true
+    qa: true
+    title: Verb Tampering Weakness
+  version-header-enabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Version Header Enabled
+  viewstate-encryption-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Viewstate Encryption Disabled
+  viewstate-mac-disabled:
+    dev: true
+    prod: true
+    qa: true
+    title: Viewstate MAC Validation Disabled
+  wcf-detect-replays:
+    dev: true
+    prod: true
+    qa: true
+    title: WCF Replay Detection Not Enabled
+  wcf-exception-details:
+    dev: true
+    prod: true
+    qa: true
+    title: WCF Exception Details
+  wcf-metadata-enabled:
+    dev: true
+    prod: true
+    qa: true
+    title: WCF Service Metadata Enabled
+  weak-membership-config:
+    dev: true
+    prod: true
+    qa: true
+    title: Weak Membership Configuration
+  x-powered-by-header:
+    dev: true
+    prod: true
+    qa: true
+    title: X-Powered-By Response Header Detected
+  xcontenttype-header-missing:
+    dev: false
+    prod: false
+    qa: false
+    title: Response Without X-Content-Type-Options Header
+  xpath-injection:
+    dev: true
+    prod: true
+    qa: true
+    title: XPath Injection
+  xxe:
+    dev: true
+    prod: true
+    qa: true
+    title: XML External Entity Injection (XXE)
+  xxssprotection-header-disabled:
+    dev: false
+    prod: false
+    qa: false
+    title: Response With X-XSS-Protection Disabled
