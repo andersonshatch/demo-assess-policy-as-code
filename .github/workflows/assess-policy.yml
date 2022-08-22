@@ -1,0 +1,26 @@
+name: Assess Policy as Code
+
+on:
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: contrast-security-oss/example-teamserver-api-scripts
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Run the build process with Docker
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/contrast-security-oss/assess-policy-as-code:main
+          options: -v ${{ github.workspace }}:/usr/src/app/output -e CONTRAST__API__URL=https://apptwo.contrastsecurity.com
+          run: |
+                python /usr/src/app/contrast_policy_as_code.py
