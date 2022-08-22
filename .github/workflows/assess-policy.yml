@@ -24,3 +24,5 @@ jobs:
           options: -v ${{ github.workspace }}:/usr/src/app/output -e CONTRAST__API__URL=https://apptwo.contrastsecurity.com -e CONTRAST__API__API_KEY=${{ secrets.CONTRAST_API_KEY }} -e CONTRAST__API__AUTH_HEADER=${{ secrets.CONTRAST_AUTH_HEADER }}
           run: |
                 python /usr/src/app/contrast_policy_as_code.py -o ${{ secrets.CONTRAST_ORGANIZATION_ID }}
+
+      - uses: numtide/clean-git-action@v1
